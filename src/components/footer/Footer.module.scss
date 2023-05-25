@@ -1,0 +1,23 @@
+.footer{
+    border-top: 2px solid #380346;
+    background-color: #eac6f9;
+    padding: 20px 0;
+    .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 15px;
+       }
+
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #89848b;
+    }   
+}

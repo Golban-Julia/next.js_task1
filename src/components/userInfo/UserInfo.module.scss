@@ -1,0 +1,14 @@
+.user__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    min-height: calc(100vh - 212px);
+
+
+    & span {
+        font-size: 20px;
+        font-weight: 600;
+        color: rgb(4, 45, 45)
+    }
+}
