@@ -1,0 +1,37 @@
+.header{
+    border-bottom: 2px solid #380346;
+    background-color: #eac6f9;
+    
+    .container{
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:30px;
+    }
+
+    a{
+        font-size: 40px;
+        font-weight: 600;
+        padding: 20px 10px;
+        color:#380346;
+       
+
+        &:hover{
+            color:rgb(247, 246, 246);
+            background-color: black;
+            
+            
+        }
+    }
+
+
+
+        
+}

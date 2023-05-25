@@ -1,0 +1,50 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+    &__active{
+        font-size: 30px;
+        color:royalblue;
+        font-weight: 800;
+        padding: 0 5px;
+        border-radius: 10px;
+
+            &:hover {
+                color: blue;
+                transition: 0, 3s;
+                background-color: white;
+        
+            }
+            &:active{
+                color: white;
+                transition: 0, 3s;
+                background-color: blue;
+            }      
+    }
+
+    &__noActive {
+        font-size: 20px;
+        color: rgb(50, 2, 72);
+        font-weight: 400;
+        padding: 0 5px;
+        border-radius: 10px;
+
+        &:hover {
+            color: blue;
+            transition: 0, 3s;
+            background-color: white;
+
+        }
+
+        &:active {
+            color: white;
+            transition: 0, 3s;
+            background-color: blue;
+        }
+
+
+    }
+    
+}
